@@ -5,12 +5,17 @@ html, body {
   padding: 0;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+}
 
+.main {
   background-color: #fcd6cc;
+  margin-top: 50px;
 }
 
 .heading {
@@ -18,6 +23,5 @@ body {
 
   font-size: 85px;
   font-weight: 900;
-  color: #ffffff;
   text-align: center;
 }
